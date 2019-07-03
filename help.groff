@@ -1,0 +1,67 @@
+.\"17308381 - Mark Micosa
+.Dd 8/4/10
+.Dt MAN
+.Os Mark Micosa
+.Sh NAME
+.Nm python3 my_shell.py
+.Nd an interface for local manual
+.Sh SYNOPSIS
+
+.Nm python3 my_shell.py
+\ [FILE]
+
+
+.Sh DESCRIPTION
+.Pp
+This is the system's manual page. Commands included in shell  are provided below.
+
+.Pp
+
+.Sh COMMANDS
+
+.Pp
+
+.Nm A list of items with descriptions:
+.Bl
+.Bl
+
+.Nm cd -
+\ changes current working directory if new directory supplied.
+
+.Nm clr -
+\
+clears your screen if this is possible.
+
+.Nm dir -
+\
+list information about the FILEs (current directory by default).
+
+.Nm echo -
+\
+displays a string of text given as an argument.
+
+.Nm environ -
+\
+points to an array of pointers to strings called the "environment".
+The last pointer in this array has the value NULL.
+
+.Nm help -
+\
+displays shell manual.
+
+.Nm pause -
+\
+pause operation of the shell until the Enter key is pressed.
+
+.Nm quit -
+\
+quit the shell.
+
+.Sh SEE ALSO
+.Nm Environment Concepts -
+\
+Environment variable pairs that can affect how a program runs. They are usually set at some point before a process is run. The process then reads and acts accordingly.
+
+.Nm Background Execution -
+\
+Running a program in the background of the shell and still having full functionality of the shell simultaneously. Using the “&” symbol at the end signifies that you want this to run in the background.

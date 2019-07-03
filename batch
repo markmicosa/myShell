@@ -1,0 +1,8 @@
+dir
+environ
+quit
+mkdir -p test
+cd test/
+cd ../
+rm -r test/
+echo hello there mark is smelly
